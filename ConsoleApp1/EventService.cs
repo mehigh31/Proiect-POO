@@ -29,7 +29,7 @@ public static class EventService
     {
         foreach (var ev in Events)
         {
-            Console.WriteLine($"[{ev.Id}] {ev.Name} - {ev.Date:dd/MM/yyyy} ({ev.Participants.Count}/{ev.Capacity})");
+            Console.WriteLine($"[{ev.Id}] {ev.Name} -{ev.Description} - {ev.Date:dd/MM/yyyy} ({ev.Participants.Count}/{ev.Capacity})");
         }
     }
 
